@@ -4,7 +4,7 @@ A Katalon Studio Keyword implementation that enables users to use [Chrome for Te
 
 ## Problem to solve
 
-As of the 3rd weeek February 2024, in Katalon Studio, the "Tools > Update WebDriver > Chrome" fails. See https://forum.katalon.com/t/chrome-failed-to-start-exited-normally/119718/17 for the reason why. Consequently I could not run any test cases using Chrome browser with the latest version.
+As of the 3rd weeek February 2024, in Katalon Studio, the "Tools > Update WebDriver > Chrome" failed. See https://forum.katalon.com/t/chrome-failed-to-start-exited-normally/119718/17 for the reason why. Consequently I could not run any test cases in Katalon Studio using Chrome browser.
 
 ## Solution
 
