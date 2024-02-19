@@ -29,7 +29,7 @@ $ npx @puppeteer/browsers install chrome@116.0.5793.0
 To install the corresponding version of "ChromeDriver", run the command
 
 ```
-$ npx @puppeteer/borwsers install chromedriver@@116.0.5793.0
+$ npx @puppeteer/borwsers install chromedriver@116.0.5793.0
 ```
 
 I would fix the version of "Chrome for Testing" on my machine to this old version. I would not need any newer Chrome for my testings.
@@ -60,7 +60,8 @@ import com.kazurayam.ks.driver.chrome4testing.Installation
 import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-ChromeForTestingDriverFactory driverFactory = new ChromeForTestingDriverFactory(Installation.mac_116_0_5793_0)
+ChromeForTestingDriverFactory driverFactory =
+    new ChromeForTestingDriverFactory(Installation.mac_116_0_5793_0)
 WebDriver driver = driverFactory.newChromeForTestingDriver()
 DriverFactory.changeWebDriver(driver)
 
@@ -68,3 +69,5 @@ WebUI.navigateToUrl("http://demoaut.katalon.com/")
 WebUI.delay(3)
 WebUI.closeBrowser()
 ```
+
+This test case will run using Chrome for Testing verion 116.0.5793.0.
