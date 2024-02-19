@@ -70,4 +70,4 @@ WebUI.delay(3)
 WebUI.closeBrowser()
 ```
 
-This test case will run using Chrome for Testing verion 116.0.5793.0.
+This test case will run using Chrome for Testing version 116.0.5793.0.
