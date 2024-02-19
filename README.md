@@ -1,6 +1,6 @@
 # ks-chrome-for-testing-keyword
 
-I have developed a Keyword implementation in Katalon Studio that enables users to use [Chrome for Testing](https://developer.chrome.com/blog/chrome-for-testing/) in their test cases quickly.
+I have developed a Groovy classthat enables users to use [Chrome for Testing](https://developer.chrome.com/blog/chrome-for-testing/) in their test cases in Katalon Studio quickly.
 
 ## Problem to solve
 
