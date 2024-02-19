@@ -18,7 +18,7 @@ I would use "Chrome for Testing" instead of Chrome browser.
 
 ### Installing Chrome for Testing
 
-You need "Node" and "npx" to be installed on your machine.
+You need "Node" and "npx" installed on your machine.
 
 To install a specific version of "Chrome for Testing", run the command
 
@@ -31,6 +31,8 @@ To install the corresponding version of "ChromeDriver", run the command
 ```
 $ npx @puppeteer/borwsers install chromedriver@@116.0.5793.0
 ```
+
+I would fix the version of "Chrome for Testing" on my machine to this old version. I would not need any newer Chrome for my testings.
 
 ### Create a custom keyword
 
