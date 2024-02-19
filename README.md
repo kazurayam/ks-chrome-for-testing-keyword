@@ -1,10 +1,10 @@
 # ks-chrome-for-testing-keyword
 
-I have developed a Groovy classthat enables users to use [Chrome for Testing](https://developer.chrome.com/blog/chrome-for-testing/) in their test cases in Katalon Studio quickly.
+I have developed a Groovy class that enables users to use [Chrome for Testing](https://developer.chrome.com/blog/chrome-for-testing/) in their test cases in Katalon Studio quickly.
 
 ## Problem to solve
 
-As of the 3rd weeek February 2024, in Katalon Studio, the "Tools > Update WebDriver > Chrome" failed. See https://forum.katalon.com/t/chrome-failed-to-start-exited-normally/119718/17 for the reason why. Consequently I could not run any test cases in Katalon Studio using Chrome browser.
+As of the 3rd week February 2024, in Katalon Studio, the "Tools > Update WebDriver > Chrome" failed. See https://forum.katalon.com/t/chrome-failed-to-start-exited-normally/119718/17 for the reason why. Consequently I could not run any test cases in Katalon Studio using Chrome browser.
 
 ## Solution
 
@@ -34,7 +34,7 @@ $ npx @puppeteer/borwsers install chromedriver@116.0.5793.0
 
 I would fix the version of "Chrome for Testing" on my machine to this old version. I would not need any newer Chrome for my testings.
 
-### Create a custom keyword
+### Create a custom Groovy class
 
 I developped 2 groovy codes at
 
