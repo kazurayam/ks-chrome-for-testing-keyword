@@ -16,7 +16,7 @@ I would use "Chrome for Testing" instead of Chrome browser.
 
 ## Solution explained
 
-### Installing Chrome for Testing
+### Installing Chrome for Testing and ChromeDriver of the version
 
 You need "Node" and "npx" installed on your machine.
 
