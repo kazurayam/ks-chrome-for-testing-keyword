@@ -7,11 +7,11 @@ import java.nio.file.Paths
 public enum Installation {
 
 	mac_116_0_5793_0_mac_x64(
-	"${System.getProperty("user.home")}/chrome/mac-116.0.5793.0/chrome-mac-x64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing",
-	"${System.getProperty("user.home")}/chromedriver/mac-116.0.5793.0/chromedriver-mac-x64/chromedriver"),
+		"${System.getProperty("user.home")}/chrome/mac-116.0.5793.0/chrome-mac-x64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing",
+		"${System.getProperty("user.home")}/chromedriver/mac-116.0.5793.0/chromedriver-mac-x64/chromedriver"),
 	mac_121_0_6167_184_mac_x64(
-	"${System.getProperty("user.home")}/chrome/mac-121.0.6167.184/chrome-mac-x64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing",
-	"${System.getProperty("user.home")}/chromedriver/mac-121.0.6167.184/chromedriver-mac-x64/chromedriver")
+		"${System.getProperty("user.home")}/chrome/mac-121.0.6167.184/chrome-mac-x64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing",
+		"${System.getProperty("user.home")}/chromedriver/mac-121.0.6167.184/chromedriver-mac-x64/chromedriver")
 	;
 
 

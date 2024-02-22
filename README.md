@@ -46,7 +46,7 @@ The `Installation` class contains the information in which path you installed th
 
 The `ChromeForTestingDriverFactory` class is just reusable, I meant.
 
-### Test Case example that uses "Chrome for Testing"
+### Sample Test Case that uses "Chrome for Testing"
 
 See [TC1](https://github.com/kazurayam/ks-chrome-for-testing-keyword/blob/master/Scripts/TC1/Script1708343560671.groovy)
 
@@ -71,3 +71,14 @@ WebUI.closeBrowser()
 ```
 
 This test case will run using Chrome for Testing version 116.0.5793.0.
+
+### Headless Chrome for Testing
+
+You can open Chrome for Testing in Headless mode.
+
+See [TC3](https://github.com/kazurayam/ks-chrome-for-testing-keyword/blob/master/Scripts/TC3_headless/Script1708568445937.groovy)
+
+You want to create a `ChromeOptions` object, give `'--headless'` argument. Then pass it to the `newChromeForTestingDriver(options)` method call.
+
+
+
