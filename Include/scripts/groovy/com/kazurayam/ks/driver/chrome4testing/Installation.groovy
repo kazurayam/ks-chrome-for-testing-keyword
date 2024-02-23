@@ -34,17 +34,17 @@ public enum Installation {
 	public String toString() {
 		return "{\"browserPath\":\"${browserPath}\", \"driverPath\":\"${driverPath}\"}"
 	}
-	
+
 	public void check() throws FileNotFoundException {
 		checkIfFileExists(this.getBrowserPath())
 		checkIfFileExists(this.getDriverPath())
 	}
-	
+
 	private void checkIfFileExists(String path) throws FileNotFoundException {
 		Path f = Paths.get(path)
 		boolean exists = Files.exists(f)
 		if (!exists) {
-			throw new FileNotFoundException()
+			throw new FileNotFoundException(path + " is not present")
 		}
 	}
 }
