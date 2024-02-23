@@ -1,4 +1,4 @@
-# ks-chrome-for-testing-keyword
+# ks-chrome-for-testing-support
 
 I have developed a Groovy class that enables users to use [Chrome for Testing](https://developer.chrome.com/blog/chrome-for-testing/) in their test cases in Katalon Studio quickly.
 
@@ -38,8 +38,8 @@ I would fix the version of "Chrome for Testing" on my machine to this old versio
 
 I developped 2 groovy codes at
 
-- [com.kazurayam.ks.driver.chrome4testing.ChromeForTestingDriverFactory](https://github.com/kazurayam/ks-chrome-for-testing-keyword/blob/master/Keywords/com/kazurayam/ks/driver/chrome4testing/ChromeForTestingDriverFactory.groovy)
-- [com.kazurayam.ks.driver.chrome4testing.Installation](https://github.com/kazurayam/ks-chrome-for-testing-keyword/blob/master/Keywords/com/kazurayam/ks/driver/chrome4testing/Installation.groovy)
+- [com.kazurayam.ks.driver.chrome4testing.ChromeForTestingDriverFactory](https://github.com/kazurayam/ks-chrome-for-testing-support/blob/master/Include/scripts/groovy/com/kazurayam/ks/driver/chrome4testing/ChromeForTestingDriverFactory.groovy)
+- [com.kazurayam.ks.driver.chrome4testing.Installation](https://github.com/kazurayam/ks-chrome-for-testing-support/blob/master/Include/scripts/groovy/com/kazurayam/ks/driver/chrome4testing/Installation.groovy)
 
 
 The `Installation` class contains the information in which path you installed the binaries of the "Chrome for Testing" and the ChromeDriver. The code must be customized by you.
@@ -48,7 +48,7 @@ The `ChromeForTestingDriverFactory` class is just reusable, I meant.
 
 ### Sample Test Case that uses "Chrome for Testing"
 
-See [TC1](https://github.com/kazurayam/ks-chrome-for-testing-keyword/blob/master/Scripts/TC1/Script1708343560671.groovy)
+See [TC1](https://github.com/kazurayam/ks-chrome-for-testing-support/blob/master/Scripts/TC1/Script1708343560671.groovy)
 
 Let me copy&paste the source here:
 
@@ -76,7 +76,7 @@ This test case will run using Chrome for Testing version 116.0.5793.0.
 
 You can open Chrome for Testing in Headless mode.
 
-See [TC3](https://github.com/kazurayam/ks-chrome-for-testing-keyword/blob/master/Scripts/TC3_headless/Script1708568445937.groovy)
+See [TC3](https://github.com/kazurayam/ks-chrome-for-testing-support/blob/master/Scripts/TC3_headless/Script1708568445937.groovy)
 
 You want to create a `ChromeOptions` object, give `'--headless'` argument. Then pass it to the `newChromeForTestingDriver(options)` method call.
 
