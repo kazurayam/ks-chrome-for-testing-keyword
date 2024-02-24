@@ -36,9 +36,9 @@ The above demo installs an old version `116.0.5793.0`. This is just an example. 
 
 How to find the list of available versions? --- You can check the most recent available versions at https://googlechromelabs.github.io/chrome-for-testing/
 
-![avalilability](https://kazurayam.github.io/ks-chrome-for-testing-support/images/availability.png)
+![availability](https://kazurayam.github.io/ks-chrome-for-testing-support/images/availability.png)
 
-If you just want to get the "latest" one and don't like to be asked to specify a concrete version number, you can type "latest", as:
+If you don't like to be asked to specify a concrete version number to get some version newly available, you can do this:
 
 ```
 $ npx @puppeteer/browsers install chrome@latest
