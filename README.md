@@ -29,10 +29,36 @@ $ npx @puppeteer/browsers install chrome@116.0.5793.0
 To install the corresponding version of "ChromeDriver", run the command
 
 ```
-$ npx @puppeteer/borwsers install chromedriver@116.0.5793.0
+$ npx @puppeteer/browsers install chromedriver@116.0.5793.0
 ```
 
-I would fix the version of "Chrome for Testing" on my machine.
+You can find more detail about the `npx @puppeteer/browsers` command at [the doc page](https://pptr.dev/browsers-api).
+
+The above demo installs an old version `116.0.5793.0`. This just an example. You can specify any available version in the commandline.
+
+How to know the available versions? --- You can check the most recent available versions at https://googlechromelabs.github.io/chrome-for-testing/
+
+![avalilability](https://kazurayam.github.io/ks-chrome-for-testing-support/images/availability.png)
+
+If you just want to get the "latest" one and don't like to be asked to specify a concrete version number, you can type "latest", as:
+
+```
+$ npx @puppeteer/browsers install chrome@latest
+
+Downloading chrome r123.0.6312.10 - 165 MB [====================] 100% 0.0s
+chrome@123.0.6312.10 /Users/kazurayam/chrome/mac-123.0.6312.10/chrome-mac-x64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+```
+
+and
+
+```
+$ npx @puppeteer/browsers install chromedriver@latest
+
+Downloading chromedriver r123.0.6312.10 - 9.3 MB [==================] 100% 0.0s
+chromedriver@123.0.6312.10 /Users/kazurayam/chromedriver/mac-123.0.6312.10/chromedriver-mac-x64/chromedriver
+```
+
+It is up to you which version you try.
 
 ### Create a custom Groovy class
 
