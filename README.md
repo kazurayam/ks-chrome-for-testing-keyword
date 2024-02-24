@@ -38,7 +38,7 @@ How to find the list of available versions? --- You can check the most recent av
 
 ![availability](https://kazurayam.github.io/ks-chrome-for-testing-support/images/availability.png)
 
-If you don't like to be asked to specify a concrete version number to get some version newly available, you can do this:
+If you don't like to be asked to specify any concrete version number to get some version newly available, you can do this:
 
 ```
 $ npx @puppeteer/browsers install chrome@latest
