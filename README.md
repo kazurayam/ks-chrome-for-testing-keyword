@@ -34,9 +34,11 @@ $ npx @puppeteer/browsers install chromedriver@116.0.5793.0
 
 The above demo installs an old version `116.0.5793.0`. This is just an example. You can specify any available version in the command line. You can find more detail about the `npx @puppeteer/browsers` command at [the doc page](https://pptr.dev/browsers-api).
 
-How to find the list of available versions? --- You can check the most recent available versions at https://googlechromelabs.github.io/chrome-for-testing/
+How to find the list of available versions? --- You can check the most recent available versions at https://googlechromelabs.github.io/chrome-for-testing/ As of 25 Feb 2024, this page showed the following image:
 
 ![availability](https://kazurayam.github.io/ks-chrome-for-testing-support/images/availability.png)
+
+The Chrome developers maintains this list up to date.
 
 If you don't like to be asked to specify any concrete version number to get some version newly available, you can do this:
 
@@ -66,7 +68,7 @@ I developped 2 groovy codes in the `Include/scripts/groovy` directory of a Katal
 - [com.kazurayam.ks.driver.chrome4testing.Installation](https://github.com/kazurayam/ks-chrome-for-testing-support/blob/master/Include/scripts/groovy/com/kazurayam/ks/driver/chrome4testing/Installation.groovy)
 
 
-The `Installation` class contains the information in which path you installed the binaries of the "Chrome for Testing" and the ChromeDriver. The code must be customized by you.
+The `Installation` class contains the information in which path you installed the binaries of the "Chrome for Testing" and the ChromeDriver. The code must be customized by you. You are responsible to code the `Installation` class so that you correctly specify the path information of the binaries you want to use.
 
 The `ChromeForTestingDriverFactory` class is just reusable, I meant.
 
