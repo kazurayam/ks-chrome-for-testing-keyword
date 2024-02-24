@@ -32,11 +32,9 @@ To install the corresponding version of "ChromeDriver", run the command
 $ npx @puppeteer/browsers install chromedriver@116.0.5793.0
 ```
 
-You can find more detail about the `npx @puppeteer/browsers` command at [the doc page](https://pptr.dev/browsers-api).
+The above demo installs an old version `116.0.5793.0`. This just an example. You can specify any available version in the commandline. You can find more detail about the `npx @puppeteer/browsers` command at [the doc page](https://pptr.dev/browsers-api).
 
-The above demo installs an old version `116.0.5793.0`. This just an example. You can specify any available version in the commandline.
-
-How to know the available versions? --- You can check the most recent available versions at https://googlechromelabs.github.io/chrome-for-testing/
+How to find the list of available versions? --- You can check the most recent available versions at https://googlechromelabs.github.io/chrome-for-testing/
 
 ![avalilability](https://kazurayam.github.io/ks-chrome-for-testing-support/images/availability.png)
 
