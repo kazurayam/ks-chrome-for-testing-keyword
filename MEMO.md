@@ -8,6 +8,6 @@ Now I would play on this figure. I think that they are "early adaptors". The Wik
 
 I would like to do a statistic estimation. Provided that 32 is the 13.5% of the total, then the total could be (32 * 100) / 13.5 = 237.
 
-So I would presume that the number of active and serious Katalon Studio user would be 237 or around. Not so small, but not many as [60,000](https://forum.katalon.com/t/we-reached-60-000-members-celebrate-the-occasion-with-us/116988).
+So I would presume that the number of *active and serious* Katalon Studio user would be 237 or around. Not so small, but not many as [60,000](https://forum.katalon.com/t/we-reached-60-000-members-celebrate-the-occasion-with-us/116988).
 
 Interesting.
